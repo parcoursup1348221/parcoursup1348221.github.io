@@ -3,6 +3,10 @@
     font-size: 40px;
 }
 
+#important {
+    text-decoration: underline;
+}
+
 #remerciement {
     text-decoration: underline;
 }
