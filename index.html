@@ -4,13 +4,15 @@
     <meta charset="UTF-8">
     <link rel="stylesheet" href="./css/general.css">
     <link rel="stylesheet" href="./css/index.css">
-    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Parcoursup-1348221</title>
+    <link rel="icon" type="image/x-icon" href="./favicon/icons8-school-50.png">
 </head>
 <body>
     <div id="navbar">
         <h1 id="navbar-titre">Mon Parcours</h1>
         <ul id="menu">
-            <li><a href="./index.html">Accueil</a></li>
+            <li id="actif"><a href="./index.html">Accueil</a></li>
             <li><a href="./html/lycee.html">Lycée</a></li>
             <li><a href="./html/orientation.html">Orientation</a></li>
             <li><a href="./html/but.html">BUT</a></li>
@@ -19,13 +21,17 @@
 
     <div id="contenu">
         <h1 id="titre">Bienvenue</h1>
-        <h2>Vous pourrez trouver sur ce site des informations supplémentaires sur mon parcours</h2>
-        <h2>Je vous souhaite une bonne navigation</h2>
+        <h2>Vous pourrez trouver sur ce site des informations supplémentaires sur mon parcours.</h2>
+        <h2>Je vous souhaite une bonne navigation ...</h2>
+
+        <br /><br />
 
         <ul id="pages">
-            <li><a href="./html/lycee.html">Mon parcours au Lycée</a></li>
-            <li><a href="./html/orientation.html">Mon premier choix d'orientation</a></li>
-            <li><a href="./html/but.html">Ma volonté de réorientation en BUT</a></li>
+            <li><i class="fa fa-graduation-cap"></i><a href="./html/lycee.html"><span class="txt">Mon parcours au Lycée</span></a></li>
+            <br />
+            <li><i class="fa fa-compass"></i><a href="./html/orientation.html"><span class="txt">Mon premier choix d'orientation</span></a></li>
+            <br />
+            <li><i class="fa fa-location-arrow"></i><a href="./html/but.html"><span class="txt">Ma volonté de réorientation en BUT</span></a></li>
         </ul>
     </div>
 </body>

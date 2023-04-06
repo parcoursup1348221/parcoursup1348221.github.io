@@ -1,5 +1,5 @@
 #titre {
-    padding: 40px;
+    padding: 40px 40px 40px 0px;
     font-size: 40px;
 }
 
@@ -7,4 +7,19 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+#pages li .fa{
+    font-size: 40px;
+    margin-right: 20px;
+    color: rgb(146, 138, 138);
+    width: 45px;
+}
+
+#pages li{
+    vertical-align: top;
+}
+
+.txt {
+    vertical-align: top;
 }

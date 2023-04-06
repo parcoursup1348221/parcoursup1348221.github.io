@@ -1,9 +1,10 @@
 .cat-titre {
     font-size: 40px;
-    padding: 40px;
+    padding: 40px 40px 40px 0px;
 }
 
 #poursuivre {
     padding: 20px;
     font-size: 20px;
+    text-align: right;
 }
